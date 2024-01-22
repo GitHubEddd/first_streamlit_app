@@ -42,7 +42,7 @@ except URLError as e:
 #############################################
 
 #don't run anything past here while we troubleshot:
-streamlit.stop()
+#streamlit.stop()
 #------------------------import snowflake.connector
 streamlit.header("The fruit load list contains:")
 #Snowflake-related functions
